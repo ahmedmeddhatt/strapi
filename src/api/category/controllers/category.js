@@ -15,7 +15,7 @@ module.exports = createCoreController('api::category.category', ({strapi}) => ({
         const { data, meta } = await super.find(ctx);
     
         // some more custom logic
-        meta.date = Date.now()
+        meta.date = Date.now();
     
         return { data, meta };
       }
