@@ -19,4 +19,4 @@ module.exports = createCoreController('api::category.category', ({strapi}) => ({
     
         return { data, meta };
       }
-}));
+}));  
